@@ -128,7 +128,7 @@ INSERT INTO Movie (movie_id, movie_name, release_date, director, rating)
 VALUES (2, 'Movie 2', '2022-05-11', 'Director 2', 9.3);
 
 INSERT INTO Media (media_id, movie_id, media_type, media_url)
-VALUES (2, 2, 'Image', 'http://example.com/Image.jpg');
+VALUES (2, 2, 'Video', 'http://example.com/Image.jpg');
 
 INSERT INTO Genre (genre_id, genre_name)
 VALUES (2, 'Drama');
